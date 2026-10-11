@@ -1,0 +1,7 @@
+interface:
+  display_name: "/xxd-shop-007"
+  short_description: "Exploded teardown info posters without invented internals."
+  default_prompt: "Use $xxd-shop-007; build a sourced parts list in assembly order before generating — user drawings and manuals first, research for unclear terms, visible modules only when just an exterior photo exists — save it to facts.md, label only listed parts, take specs only from supplied facts, keep the bundled original brief as the sole aesthetic authority, warn that text-free output loses the infographic, and deliver fresh PNGs in one flat task directory."
+
+policy:
+  allow_implicit_invocation: true
