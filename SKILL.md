@@ -1,6 +1,6 @@
 ---
 name: xxd-shop-007
-description: "Create XXD Shop 007 exploded product teardown info posters (产品解构信息海报 / 零部件拆分图) as finished PNGs from product photos, drawings, exploded views, manuals, structure diagrams or descriptions, treating the bundled original brief as the sole aesthetic authority: a clean modern industrial-design infographic with the product exploded along its real assembly order, thin leader lines, numbered short labels saying what each part is and what problem it solves, optional insight cards, and 3–5 benefit icons — never inventing internals the sources do not show. Supports multiple ratios or exact sizes, prompt-generated, user-exact or user-plan labels. Use when the user invokes xxd-shop-007 or asks for 爆炸图、产品拆解图、结构解析图、零部件图、详情页技术页、产品解构图鉴."
+description: "Create XXD Shop 007 exploded product teardown info posters (产品解构信息海报 / 零部件拆分图) as finished PNGs from product photos, drawings, exploded views, manuals, structure diagrams or descriptions, treating the bundled original brief as the sole aesthetic authority: a clean modern industrial-design infographic with the product exploded along its real assembly order, thin leader lines, numbered short labels saying what each part is and what problem it solves, optional insight cards, and 3–5 benefit icons — never inventing internals the sources do not show. Supports multiple ratios or exact sizes, prompt-generated, user-exact or user-plan labels. Also plans a detail-page set (--set): an overall teardown, a key-module page and a technical cutaway, each labelling only its share of the parts list. Use when the user invokes xxd-shop-007 or asks for 爆炸图、产品拆解图、结构解析图、零部件图、详情页技术页、产品解构图鉴、拆解详情组."
 ---
 
 # XXD Shop 007｜产品解构图鉴
@@ -38,7 +38,23 @@ description: "Create XXD Shop 007 exploded product teardown info posters (产品
 
 **版式语言：** 原稿顶部栏目标题举例“产品解构图鉴”，按文字语言自然转写；英文时用对应英文，不保留中文。
 
+**套图：拆解详情组（启用）。** 原稿写明它适用于“电商详情页头图、核心卖点页、产品技术页”，一组详情图就是这几种页各出一张。按家族“套图”一节执行，本编号的约定：
+
+- **默认张数：** 3。用户可以用 `--set N` 改成 2–5 张。
+- **套图角色：** 头图（整机拆解，看清整体与装配关系）、核心卖点页（一个关键模块及它解决的问题）、产品技术页（局部剖开，加原稿列出的一种信息卡：工作原理、技术亮点、气流路径、光学路径、避障逻辑或传感器作用）。张数多于 3 时，增加的是更多模块页或技术页。
+- **部件清单按张分配：** 头图标注清单里的主要部件；每张模块页和技术页只标它那个模块在清单里的部件。任何一张都不出现清单外的部件名。原稿底部的 3–5 个核心卖点只放在头图上，不在每张重复。
+- **材料不够就少做：** 内部结构没有资料时，只做头图和外壳或可见模块页，告诉用户为什么少了；不为凑张数虚构内部模块。
+- **继承项：** 背景色，产品渲染质感，线条、箭头、编号与图标的统一风格，强调色的用法。
+- **构图来源：** 原稿列出的拆分方向，包括纵向分层拆解、前后展开、左右拆分、模块悬浮展开和局部剖开显示。相邻两张不用同一种。
+- **标题：** 原稿规定主标题是产品名称，所以每张的主标题都是产品名称；各张靠副标题区分，副标题按原稿“说明品类与解构主题”写本张的解构主题。
+- **追加验收：** 每张都只标清单里分给它的部件；模块页和技术页看得出是从头图那台产品里拆出来的；线条、编号与图标的风格整组一致。
+
 **追加验收：** 拆分方向与装配逻辑一致，部件顺序与清单一致；没有清单外的标注名；产品外观识别度保留；线条、箭头、编号、图标风格统一；第一眼先看到整体与拆分关系，局部信息卡没有压过主体。
+
+**写入提示词：** 以下句子原话放进交付块的“本编号约束”；其余覆盖条款由 Agent 执行与验收，不进入提示词。
+
+- 每个标注的部件名都来自“可用事实”里的部件清单，不标清单以外的部件。
+- 主标题是产品名称；副标题说明品类与本张的解构主题。做套图时，底部 3–5 个核心卖点只放在头图，其他张不重复。
 
 ## 参考文件
 

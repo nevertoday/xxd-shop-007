@@ -10,9 +10,34 @@
 
 > 原始提示词：[简体中文原文](references/original-prompt/zh-CN.md) · [English](references/original-prompt/en.md)
 
+<!-- xxd-samples:start -->
 ## 样张
 
-暂无样张。下文命令只是用法示例，不是视觉证据。
+<p align="center"><a href="assets/examples/p01-set-3x4-1086x1448.png"><img src="assets/examples/preview/p01-set-3x4-1086x1448.webp" width="720" alt="详情页"></a><br><sub>详情页 · 3:4 · 1086x1448<br>暖岛 6L 空气炸锅 · 仅商品名称 · 按原稿生成（中文）<br>第 1 / 3 张</sub></p>
+
+### 一个商品，适配每个位置
+
+同一商品、同一份原稿，每个比例都重新构图，不是裁切。
+
+<table>
+<tr><td align="center" valign="top"><a href="assets/examples/s01-size-1x1-1254x1254.png"><img src="assets/examples/preview/s01-size-1x1-1254x1254.webp" height="200" alt="详情页结构说明"></a><br><sub>详情页结构说明 · 1:1 · 1254x1254<br>声川 头戴降噪耳机 · <a href="assets/examples/sources/headphones-black.jpg">原图</a> · 按原稿生成（中文）</sub></td><td align="center" valign="top"><a href="assets/examples/s02-size-3x4-1086x1448.png"><img src="assets/examples/preview/s02-size-3x4-1086x1448.webp" height="200" alt="详情页"></a><br><sub>详情页 · 3:4 · 1086x1448<br>声川 头戴降噪耳机 · <a href="assets/examples/sources/headphones-black.jpg">原图</a> · 按原稿生成（中文）</sub></td><td align="center" valign="top"><a href="assets/examples/s03-size-9x16-941x1672.png"><img src="assets/examples/preview/s03-size-9x16-941x1672.webp" height="200" alt="竖屏"></a><br><sub>竖屏 · 9:16 · 941x1672<br>声川 头戴降噪耳机 · <a href="assets/examples/sources/headphones-black.jpg">原图</a> · 按原稿生成（中文）</sub></td><td align="center" valign="top"><a href="assets/examples/s04-size-16x9-1672x941.png"><img src="assets/examples/preview/s04-size-16x9-1672x941.webp" height="200" alt="参数页横版"></a><br><sub>参数页横版 · 16:9 · 1672x941<br>声川 头戴降噪耳机 · <a href="assets/examples/sources/headphones-black.jpg">原图</a> · 按原稿生成（中文）</sub></td></tr>
+</table>
+
+### 拆解详情组（套图）：头图、卖点页、技术页
+
+<table>
+<tr><td align="center" valign="top"><a href="assets/examples/p01-set-3x4-1086x1448.png"><img src="assets/examples/preview/p01-set-3x4-1086x1448.webp" height="220" alt="详情页"></a><br><sub>详情页 · 3:4 · 1086x1448<br>暖岛 6L 空气炸锅 · 仅商品名称 · 按原稿生成（中文）<br>第 1 / 3 张</sub></td><td align="center" valign="top"><a href="assets/examples/p02-set-3x4-1086x1448.png"><img src="assets/examples/preview/p02-set-3x4-1086x1448.webp" height="220" alt="详情页"></a><br><sub>详情页 · 3:4 · 1086x1448<br>暖岛 6L 空气炸锅 · 仅商品名称 · 按原稿生成（中文）<br>第 2 / 3 张</sub></td><td align="center" valign="top"><a href="assets/examples/p03-set-3x4-1086x1448.png"><img src="assets/examples/preview/p03-set-3x4-1086x1448.webp" height="220" alt="详情页"></a><br><sub>详情页 · 3:4 · 1086x1448<br>暖岛 6L 空气炸锅 · 仅商品名称 · 按原稿生成（中文）<br>第 3 / 3 张</sub></td></tr>
+</table>
+
+### 换一个品类也成立
+
+<table>
+<tr><td align="center" valign="top"><a href="assets/examples/s08-category-3x4-1086x1448.png"><img src="assets/examples/preview/s08-category-3x4-1086x1448.webp" height="220" alt="详情页"></a><br><sub>详情页 · 3:4 · 1086x1448<br>暖岛 高速吹风机 · <a href="assets/examples/sources/dryer-black.jpg">原图</a> · 按原稿生成（中文）</sub></td></tr>
+</table>
+
+<sub>样张商品均为虚构的演示品牌，价格、规格等数字为演示设定；商品原图来自 Unsplash，署名与许可见 [assets/examples/README.md](assets/examples/README.md)。每张都是单次生成的完整画面，未修图、未拼接、未放大，像素照实标注；没通过目视验收的已重出，不放进来。点开看原尺寸。</sub>
+
+<!-- xxd-samples:end -->
 
 ## 它解决什么
 
@@ -45,6 +70,19 @@
 | **你会得到什么** | 可直接放进详情页头图、核心卖点页或技术页的产品解构海报 |
 | **一眼可辨的特点** | 干净浅底 · 居中爆炸拆分 · 细线编号短标注 · 少量信息卡 · 底部卖点图标 · 少量点缀色高亮 |
 | **它不会做什么** | 不杜撰内部结构、不打乱装配顺序、不写说明书式长文 |
+
+## 拆解详情组
+
+原稿写明它适用于“详情页头图、核心卖点页、产品技术页”。加 `--set`（默认 3 张），三种页就各出一张：
+- **头图**：整机拆开，看清整体和装配关系；
+- **卖点页**：一个关键模块，以及它解决的问题；
+- **技术页**：局部剖开，配一张原理信息卡。
+
+部件清单按页分配，每页只标自己那一部分。核心卖点只在头图出现。没有内部资料时，宁可少出一页，也不虚构内部模块。
+
+```text
+/xxd-shop-007 ./扫地机.png ./说明书.pdf --set 3 --size 3:4 --locale zh-CN
+```
 
 ## 开始使用
 

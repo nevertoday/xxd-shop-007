@@ -1,0 +1,174 @@
+{
+ "skill": "007",
+ "special": null,
+ "set": {
+  "zh": "拆解详情组（套图）：头图、卖点页、技术页",
+  "en": "Detail-page set: hero, key module, technical cutaway"
+ },
+ "items": [
+  {
+   "id": "p01",
+   "section": "set",
+   "ratio": "3:4",
+   "input": "name",
+   "use": {
+    "zh": "详情页",
+    "en": "Detail page"
+   },
+   "product": {
+    "zh": "暖岛 6L 空气炸锅",
+    "en": "NUANDAO 6 L air fryer"
+   },
+   "text": "prompt zh-CN",
+   "visual_review": "passed",
+   "note": {
+    "zh": "第 1 / 3 张",
+    "en": "1 of 3"
+   },
+   "hero": true,
+   "file": "p01-set-3x4-1086x1448.png",
+   "pixels": "1086x1448"
+  },
+  {
+   "id": "p02",
+   "section": "set",
+   "ratio": "3:4",
+   "input": "name",
+   "use": {
+    "zh": "详情页",
+    "en": "Detail page"
+   },
+   "product": {
+    "zh": "暖岛 6L 空气炸锅",
+    "en": "NUANDAO 6 L air fryer"
+   },
+   "text": "prompt zh-CN",
+   "visual_review": "passed",
+   "note": {
+    "zh": "第 2 / 3 张",
+    "en": "2 of 3"
+   },
+   "hero": false,
+   "file": "p02-set-3x4-1086x1448.png",
+   "pixels": "1086x1448"
+  },
+  {
+   "id": "p03",
+   "section": "set",
+   "ratio": "3:4",
+   "input": "name",
+   "use": {
+    "zh": "详情页",
+    "en": "Detail page"
+   },
+   "product": {
+    "zh": "暖岛 6L 空气炸锅",
+    "en": "NUANDAO 6 L air fryer"
+   },
+   "text": "prompt zh-CN",
+   "visual_review": "passed",
+   "note": {
+    "zh": "第 3 / 3 张",
+    "en": "3 of 3"
+   },
+   "hero": false,
+   "file": "p03-set-3x4-1086x1448.png",
+   "pixels": "1086x1448"
+  },
+  {
+   "id": "s01",
+   "section": "size",
+   "ratio": "1:1",
+   "input": "headphones-black",
+   "use": {
+    "zh": "详情页结构说明",
+    "en": "Detail-page structure"
+   },
+   "product": {
+    "zh": "声川 头戴降噪耳机",
+    "en": "SHENGCHUAN noise-cancelling headphones"
+   },
+   "text": "prompt zh-CN",
+   "visual_review": "passed",
+   "hero": false,
+   "file": "s01-size-1x1-1254x1254.png",
+   "pixels": "1254x1254"
+  },
+  {
+   "id": "s02",
+   "section": "size",
+   "ratio": "3:4",
+   "input": "headphones-black",
+   "use": {
+    "zh": "详情页",
+    "en": "Detail page"
+   },
+   "product": {
+    "zh": "声川 头戴降噪耳机",
+    "en": "SHENGCHUAN noise-cancelling headphones"
+   },
+   "text": "prompt zh-CN",
+   "visual_review": "passed",
+   "hero": false,
+   "file": "s02-size-3x4-1086x1448.png",
+   "pixels": "1086x1448"
+  },
+  {
+   "id": "s03",
+   "section": "size",
+   "ratio": "9:16",
+   "input": "headphones-black",
+   "use": {
+    "zh": "竖屏",
+    "en": "Vertical screen"
+   },
+   "product": {
+    "zh": "声川 头戴降噪耳机",
+    "en": "SHENGCHUAN noise-cancelling headphones"
+   },
+   "text": "prompt zh-CN",
+   "visual_review": "passed",
+   "hero": false,
+   "file": "s03-size-9x16-941x1672.png",
+   "pixels": "941x1672"
+  },
+  {
+   "id": "s04",
+   "section": "size",
+   "ratio": "16:9",
+   "input": "headphones-black",
+   "use": {
+    "zh": "参数页横版",
+    "en": "Specs page, landscape"
+   },
+   "product": {
+    "zh": "声川 头戴降噪耳机",
+    "en": "SHENGCHUAN noise-cancelling headphones"
+   },
+   "text": "prompt zh-CN",
+   "visual_review": "passed",
+   "hero": false,
+   "file": "s04-size-16x9-1672x941.png",
+   "pixels": "1672x941"
+  },
+  {
+   "id": "s08",
+   "section": "category",
+   "ratio": "3:4",
+   "input": "dryer-black",
+   "use": {
+    "zh": "详情页",
+    "en": "Detail page"
+   },
+   "product": {
+    "zh": "暖岛 高速吹风机",
+    "en": "NUANDAO high-speed hair dryer"
+   },
+   "text": "prompt zh-CN",
+   "visual_review": "passed",
+   "hero": false,
+   "file": "s08-category-3x4-1086x1448.png",
+   "pixels": "1086x1448"
+  }
+ ]
+}

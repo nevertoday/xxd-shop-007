@@ -10,9 +10,34 @@
 
 > Original brief: [Simplified Chinese original](references/original-prompt/zh-CN.md) · [English reading translation](references/original-prompt/en.md)
 
+<!-- xxd-samples:start -->
 ## Samples
 
-No samples yet. The commands below are usage examples, not visual evidence.
+<p align="center"><a href="assets/examples/p01-set-3x4-1086x1448.png"><img src="assets/examples/preview/p01-set-3x4-1086x1448.webp" width="720" alt="Detail page"></a><br><sub>Detail page · 3:4 · 1086x1448<br>NUANDAO 6 L air fryer · name only · brief-generated (Chinese)<br>1 of 3</sub></p>
+
+### One product, every placement
+
+Same product, same brief: each ratio is a new composition, not a crop.
+
+<table>
+<tr><td align="center" valign="top"><a href="assets/examples/s01-size-1x1-1254x1254.png"><img src="assets/examples/preview/s01-size-1x1-1254x1254.webp" height="200" alt="Detail-page structure"></a><br><sub>Detail-page structure · 1:1 · 1254x1254<br>SHENGCHUAN noise-cancelling headphones · <a href="assets/examples/sources/headphones-black.jpg">source photo</a> · brief-generated (Chinese)</sub></td><td align="center" valign="top"><a href="assets/examples/s02-size-3x4-1086x1448.png"><img src="assets/examples/preview/s02-size-3x4-1086x1448.webp" height="200" alt="Detail page"></a><br><sub>Detail page · 3:4 · 1086x1448<br>SHENGCHUAN noise-cancelling headphones · <a href="assets/examples/sources/headphones-black.jpg">source photo</a> · brief-generated (Chinese)</sub></td><td align="center" valign="top"><a href="assets/examples/s03-size-9x16-941x1672.png"><img src="assets/examples/preview/s03-size-9x16-941x1672.webp" height="200" alt="Vertical screen"></a><br><sub>Vertical screen · 9:16 · 941x1672<br>SHENGCHUAN noise-cancelling headphones · <a href="assets/examples/sources/headphones-black.jpg">source photo</a> · brief-generated (Chinese)</sub></td><td align="center" valign="top"><a href="assets/examples/s04-size-16x9-1672x941.png"><img src="assets/examples/preview/s04-size-16x9-1672x941.webp" height="200" alt="Specs page, landscape"></a><br><sub>Specs page, landscape · 16:9 · 1672x941<br>SHENGCHUAN noise-cancelling headphones · <a href="assets/examples/sources/headphones-black.jpg">source photo</a> · brief-generated (Chinese)</sub></td></tr>
+</table>
+
+### Detail-page set: hero, key module, technical cutaway
+
+<table>
+<tr><td align="center" valign="top"><a href="assets/examples/p01-set-3x4-1086x1448.png"><img src="assets/examples/preview/p01-set-3x4-1086x1448.webp" height="220" alt="Detail page"></a><br><sub>Detail page · 3:4 · 1086x1448<br>NUANDAO 6 L air fryer · name only · brief-generated (Chinese)<br>1 of 3</sub></td><td align="center" valign="top"><a href="assets/examples/p02-set-3x4-1086x1448.png"><img src="assets/examples/preview/p02-set-3x4-1086x1448.webp" height="220" alt="Detail page"></a><br><sub>Detail page · 3:4 · 1086x1448<br>NUANDAO 6 L air fryer · name only · brief-generated (Chinese)<br>2 of 3</sub></td><td align="center" valign="top"><a href="assets/examples/p03-set-3x4-1086x1448.png"><img src="assets/examples/preview/p03-set-3x4-1086x1448.webp" height="220" alt="Detail page"></a><br><sub>Detail page · 3:4 · 1086x1448<br>NUANDAO 6 L air fryer · name only · brief-generated (Chinese)<br>3 of 3</sub></td></tr>
+</table>
+
+### Across categories
+
+<table>
+<tr><td align="center" valign="top"><a href="assets/examples/s08-category-3x4-1086x1448.png"><img src="assets/examples/preview/s08-category-3x4-1086x1448.webp" height="220" alt="Detail page"></a><br><sub>Detail page · 3:4 · 1086x1448<br>NUANDAO high-speed hair dryer · <a href="assets/examples/sources/dryer-black.jpg">source photo</a> · brief-generated (Chinese)</sub></td></tr>
+</table>
+
+<sub>All sample products are fictional demo brands, and their prices and specs are demo values. Source photos come from Unsplash; credits and licence are in [assets/examples/README.md](assets/examples/README.md). Each image is one complete generation: not retouched, composited or upscaled, with its real pixel size shown. Images that failed visual review were regenerated and are not shown. Click for full size.</sub>
+
+<!-- xxd-samples:end -->
 
 ## What it solves
 
@@ -31,6 +56,10 @@ The rule is **no invention**: drawings are followed exactly, unclear terms are r
 | Exterior photo only | Shell and visible modules only; restrained internals, no unknown labels |
 
 The list and its sources are saved as `facts.md` in the task folder; every label on the image matches it.
+
+## Detail-page set
+
+The brief names its uses: detail-page header, key-benefit page and technical page. With `--set` (3 by default) you get one of each: the whole teardown, one key module and what it solves, and a cutaway with an explanation card. The parts list is split across the pages so each labels only its own share; benefits appear on the header only. Without internal sources it makes fewer pages rather than inventing modules.
 
 ## Getting started
 
