@@ -7,6 +7,144 @@
  },
  "items": [
   {
+   "id": "c01",
+   "section": "category",
+   "ratio": "3:4",
+   "input": "name",
+   "use": {
+    "zh": "详情页结构说明",
+    "en": "Detail-page structure"
+   },
+   "product": {
+    "zh": "暖岛 扫地机器人",
+    "en": "NUANDAO robot vacuum"
+   },
+   "text": "prompt zh-CN",
+   "visual_review": "passed",
+   "cat": {
+    "zh": "家电",
+    "en": "Appliances"
+   },
+   "hero": false,
+   "file": "c01-category-3x4-1086x1448.png",
+   "pixels": "1086x1448"
+  },
+  {
+   "id": "c02",
+   "section": "category",
+   "ratio": "3:4",
+   "input": "name",
+   "use": {
+    "zh": "详情页",
+    "en": "Detail page"
+   },
+   "product": {
+    "zh": "暖岛 声波电动牙刷",
+    "en": "NUANDAO sonic toothbrush"
+   },
+   "text": "prompt zh-CN",
+   "visual_review": "passed",
+   "cat": {
+    "zh": "个护清洁",
+    "en": "Personal & home care"
+   },
+   "hero": false,
+   "file": "c02-category-3x4-1086x1448.png",
+   "pixels": "1086x1448"
+  },
+  {
+   "id": "c03",
+   "section": "category",
+   "ratio": "16:9",
+   "input": "name",
+   "use": {
+    "zh": "参数页横版",
+    "en": "Specs page, landscape"
+   },
+   "product": {
+    "zh": "声川 机械键盘",
+    "en": "SHENGCHUAN mechanical keyboard"
+   },
+   "text": "prompt zh-CN",
+   "visual_review": "passed",
+   "cat": {
+    "zh": "3C 数码",
+    "en": "Electronics"
+   },
+   "hero": false,
+   "file": "c03-category-16x9-1672x941.png",
+   "pixels": "1672x941"
+  },
+  {
+   "id": "c04",
+   "section": "category",
+   "ratio": "4:5",
+   "input": "lamp-teal",
+   "use": {
+    "zh": "详情页",
+    "en": "Detail page"
+   },
+   "product": {
+    "zh": "暖岛 摇臂护眼台灯",
+    "en": "NUANDAO swing-arm desk lamp"
+   },
+   "text": "prompt zh-CN",
+   "visual_review": "passed",
+   "cat": {
+    "zh": "家居",
+    "en": "Home"
+   },
+   "hero": false,
+   "file": "c04-category-4x5-1122x1402.png",
+   "pixels": "1122x1402"
+  },
+  {
+   "id": "c05",
+   "section": "category",
+   "ratio": "1:1",
+   "input": "name",
+   "use": {
+    "zh": "详情页结构说明",
+    "en": "Detail-page structure"
+   },
+   "product": {
+    "zh": "声川 磁吸充电宝",
+    "en": "SHENGCHUAN magnetic power bank"
+   },
+   "text": "prompt zh-CN",
+   "visual_review": "passed",
+   "cat": {
+    "zh": "3C 数码",
+    "en": "Electronics"
+   },
+   "hero": false,
+   "file": "c05-category-1x1-1254x1254.png",
+   "pixels": "1254x1254"
+  },
+  {
+   "id": "c06",
+   "section": "category",
+   "ratio": "9:16",
+   "input": "name",
+   "use": {
+    "zh": "竖屏",
+    "en": "Vertical screen"
+   },
+   "product": {
+    "zh": "声川 智能手表",
+    "en": "SHENGCHUAN smartwatch"
+   },
+   "text": "prompt zh-CN",
+   "visual_review": "passed",
+   "cat": {
+    "zh": "3C 数码",
+    "en": "Electronics"
+   },
+   "hero": false,
+   "file": "c06-category-9x16-941x1672.png",
+   "pixels": "941x1672"
+  },
+  {
    "id": "p01",
    "section": "set",
    "ratio": "3:4",
@@ -21,6 +159,10 @@
    },
    "text": "prompt zh-CN",
    "visual_review": "passed",
+   "cat": {
+    "zh": "家电",
+    "en": "Appliances"
+   },
    "note": {
     "zh": "第 1 / 3 张",
     "en": "1 of 3"
@@ -44,6 +186,10 @@
    },
    "text": "prompt zh-CN",
    "visual_review": "passed",
+   "cat": {
+    "zh": "家电",
+    "en": "Appliances"
+   },
    "note": {
     "zh": "第 2 / 3 张",
     "en": "2 of 3"
@@ -67,6 +213,10 @@
    },
    "text": "prompt zh-CN",
    "visual_review": "passed",
+   "cat": {
+    "zh": "家电",
+    "en": "Appliances"
+   },
    "note": {
     "zh": "第 3 / 3 张",
     "en": "3 of 3"
@@ -90,6 +240,10 @@
    },
    "text": "prompt zh-CN",
    "visual_review": "passed",
+   "cat": {
+    "zh": "3C 数码",
+    "en": "Electronics"
+   },
    "hero": false,
    "file": "s01-size-1x1-1254x1254.png",
    "pixels": "1254x1254"
@@ -109,6 +263,10 @@
    },
    "text": "prompt zh-CN",
    "visual_review": "passed",
+   "cat": {
+    "zh": "3C 数码",
+    "en": "Electronics"
+   },
    "hero": false,
    "file": "s02-size-3x4-1086x1448.png",
    "pixels": "1086x1448"
@@ -128,6 +286,10 @@
    },
    "text": "prompt zh-CN",
    "visual_review": "passed",
+   "cat": {
+    "zh": "3C 数码",
+    "en": "Electronics"
+   },
    "hero": false,
    "file": "s03-size-9x16-941x1672.png",
    "pixels": "941x1672"
@@ -147,6 +309,10 @@
    },
    "text": "prompt zh-CN",
    "visual_review": "passed",
+   "cat": {
+    "zh": "3C 数码",
+    "en": "Electronics"
+   },
    "hero": false,
    "file": "s04-size-16x9-1672x941.png",
    "pixels": "1672x941"
@@ -166,6 +332,10 @@
    },
    "text": "prompt zh-CN",
    "visual_review": "passed",
+   "cat": {
+    "zh": "家电",
+    "en": "Appliances"
+   },
    "hero": false,
    "file": "s08-category-3x4-1086x1448.png",
    "pixels": "1086x1448"

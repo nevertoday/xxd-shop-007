@@ -15,6 +15,14 @@
 
 <p align="center"><a href="assets/examples/p01-set-3x4-1086x1448.png"><img src="assets/examples/preview/p01-set-3x4-1086x1448.webp" width="720" alt="详情页"></a><br><sub>详情页 · 3:4 · 1086x1448<br>暖岛 6L 空气炸锅 · 仅商品名称 · 按原稿生成（中文）<br>第 1 / 3 张</sub></p>
 
+### 能做哪些品类
+
+每格一个品类，点开看大图；下面各段有用途、比例、像素和输入说明。
+
+<table>
+<tr><td align="center" valign="top"><a href="assets/examples/c01-category-3x4-1086x1448.png"><img src="assets/examples/preview/c01-category-3x4-1086x1448.webp" height="130" alt="家电"></a><br><sub><b>家电</b><br>详情页结构说明</sub></td><td align="center" valign="top"><a href="assets/examples/c02-category-3x4-1086x1448.png"><img src="assets/examples/preview/c02-category-3x4-1086x1448.webp" height="130" alt="个护清洁"></a><br><sub><b>个护清洁</b><br>详情页</sub></td><td align="center" valign="top"><a href="assets/examples/c03-category-16x9-1672x941.png"><img src="assets/examples/preview/c03-category-16x9-1672x941.webp" height="130" alt="3C 数码"></a><br><sub><b>3C 数码</b><br>参数页横版</sub></td><td align="center" valign="top"><a href="assets/examples/c04-category-4x5-1122x1402.png"><img src="assets/examples/preview/c04-category-4x5-1122x1402.webp" height="130" alt="家居"></a><br><sub><b>家居</b><br>详情页</sub></td></tr>
+</table>
+
 ### 一个商品，适配每个位置
 
 同一商品、同一份原稿，每个比例都重新构图，不是裁切。
@@ -32,7 +40,9 @@
 ### 换一个品类也成立
 
 <table>
-<tr><td align="center" valign="top"><a href="assets/examples/s08-category-3x4-1086x1448.png"><img src="assets/examples/preview/s08-category-3x4-1086x1448.webp" height="220" alt="详情页"></a><br><sub>详情页 · 3:4 · 1086x1448<br>暖岛 高速吹风机 · <a href="assets/examples/sources/dryer-black.jpg">原图</a> · 按原稿生成（中文）</sub></td></tr>
+<tr><td align="center" valign="top"><a href="assets/examples/c01-category-3x4-1086x1448.png"><img src="assets/examples/preview/c01-category-3x4-1086x1448.webp" height="200" alt="详情页结构说明"></a><br><sub>详情页结构说明 · 3:4 · 1086x1448<br>暖岛 扫地机器人 · 仅商品名称 · 按原稿生成（中文）</sub></td><td align="center" valign="top"><a href="assets/examples/c02-category-3x4-1086x1448.png"><img src="assets/examples/preview/c02-category-3x4-1086x1448.webp" height="200" alt="详情页"></a><br><sub>详情页 · 3:4 · 1086x1448<br>暖岛 声波电动牙刷 · 仅商品名称 · 按原稿生成（中文）</sub></td><td align="center" valign="top"><a href="assets/examples/c03-category-16x9-1672x941.png"><img src="assets/examples/preview/c03-category-16x9-1672x941.webp" height="200" alt="参数页横版"></a><br><sub>参数页横版 · 16:9 · 1672x941<br>声川 机械键盘 · 仅商品名称 · 按原稿生成（中文）</sub></td></tr>
+<tr><td align="center" valign="top"><a href="assets/examples/c04-category-4x5-1122x1402.png"><img src="assets/examples/preview/c04-category-4x5-1122x1402.webp" height="200" alt="详情页"></a><br><sub>详情页 · 4:5 · 1122x1402<br>暖岛 摇臂护眼台灯 · <a href="assets/examples/sources/lamp-teal.jpg">原图</a> · 按原稿生成（中文）</sub></td><td align="center" valign="top"><a href="assets/examples/c05-category-1x1-1254x1254.png"><img src="assets/examples/preview/c05-category-1x1-1254x1254.webp" height="200" alt="详情页结构说明"></a><br><sub>详情页结构说明 · 1:1 · 1254x1254<br>声川 磁吸充电宝 · 仅商品名称 · 按原稿生成（中文）</sub></td><td align="center" valign="top"><a href="assets/examples/c06-category-9x16-941x1672.png"><img src="assets/examples/preview/c06-category-9x16-941x1672.webp" height="200" alt="竖屏"></a><br><sub>竖屏 · 9:16 · 941x1672<br>声川 智能手表 · 仅商品名称 · 按原稿生成（中文）</sub></td></tr>
+<tr><td align="center" valign="top"><a href="assets/examples/s08-category-3x4-1086x1448.png"><img src="assets/examples/preview/s08-category-3x4-1086x1448.webp" height="200" alt="详情页"></a><br><sub>详情页 · 3:4 · 1086x1448<br>暖岛 高速吹风机 · <a href="assets/examples/sources/dryer-black.jpg">原图</a> · 按原稿生成（中文）</sub></td></tr>
 </table>
 
 <sub>样张商品均为虚构的演示品牌，价格、规格等数字为演示设定；商品原图来自 Unsplash，署名与许可见 [assets/examples/README.md](assets/examples/README.md)。每张都是单次生成的完整画面，未修图、未拼接、未放大，像素照实标注；没通过目视验收的已重出，不放进来。点开看原尺寸。</sub>

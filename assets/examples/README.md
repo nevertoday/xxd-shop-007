@@ -4,6 +4,12 @@
 
 | 文件 | 用途 | 实际像素 | 输入 | 文字方式 | visual_review |
 |---|---|---|---|---|---|
+| `c01-category-3x4-1086x1448.png` | 详情页结构说明 | 1086x1448 | 仅商品名称 | prompt zh-CN | passed |
+| `c02-category-3x4-1086x1448.png` | 详情页 | 1086x1448 | 仅商品名称 | prompt zh-CN | passed |
+| `c03-category-16x9-1672x941.png` | 参数页横版 | 1672x941 | 仅商品名称 | prompt zh-CN | passed |
+| `c04-category-4x5-1122x1402.png` | 详情页 | 1122x1402 | 原图 `lamp-teal` | prompt zh-CN | passed |
+| `c05-category-1x1-1254x1254.png` | 详情页结构说明 | 1254x1254 | 仅商品名称 | prompt zh-CN | passed |
+| `c06-category-9x16-941x1672.png` | 竖屏 | 941x1672 | 仅商品名称 | prompt zh-CN | passed |
 | `p01-set-3x4-1086x1448.png` | 详情页 | 1086x1448 | 仅商品名称 | prompt zh-CN | passed |
 | `p02-set-3x4-1086x1448.png` | 详情页 | 1086x1448 | 仅商品名称 | prompt zh-CN | passed |
 | `p03-set-3x4-1086x1448.png` | 详情页 | 1086x1448 | 仅商品名称 | prompt zh-CN | passed |
@@ -21,3 +27,4 @@
 |---|---|
 | `sources/dryer-black.jpg` | [O4rT7zAi4ro](https://unsplash.com/photos/O4rT7zAi4ro) · @theshubhamdhage |
 | `sources/headphones-black.jpg` | [dBwadhWa-lI](https://unsplash.com/photos/dBwadhWa-lI) · @cdx2 |
+| `sources/lamp-teal.jpg` | [CpF8oOfwuoY](https://unsplash.com/photos/CpF8oOfwuoY) · @anniespratt |

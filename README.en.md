@@ -15,6 +15,14 @@
 
 <p align="center"><a href="assets/examples/p01-set-3x4-1086x1448.png"><img src="assets/examples/preview/p01-set-3x4-1086x1448.webp" width="720" alt="Detail page"></a><br><sub>Detail page · 3:4 · 1086x1448<br>NUANDAO 6 L air fryer · name only · brief-generated (Chinese)<br>1 of 3</sub></p>
 
+### Categories at a glance
+
+One tile per category; click for full size. The sections below give use, ratio, pixels and input.
+
+<table>
+<tr><td align="center" valign="top"><a href="assets/examples/c01-category-3x4-1086x1448.png"><img src="assets/examples/preview/c01-category-3x4-1086x1448.webp" height="130" alt="Appliances"></a><br><sub><b>Appliances</b><br>Detail-page structure</sub></td><td align="center" valign="top"><a href="assets/examples/c02-category-3x4-1086x1448.png"><img src="assets/examples/preview/c02-category-3x4-1086x1448.webp" height="130" alt="Personal & home care"></a><br><sub><b>Personal & home care</b><br>Detail page</sub></td><td align="center" valign="top"><a href="assets/examples/c03-category-16x9-1672x941.png"><img src="assets/examples/preview/c03-category-16x9-1672x941.webp" height="130" alt="Electronics"></a><br><sub><b>Electronics</b><br>Specs page, landscape</sub></td><td align="center" valign="top"><a href="assets/examples/c04-category-4x5-1122x1402.png"><img src="assets/examples/preview/c04-category-4x5-1122x1402.webp" height="130" alt="Home"></a><br><sub><b>Home</b><br>Detail page</sub></td></tr>
+</table>
+
 ### One product, every placement
 
 Same product, same brief: each ratio is a new composition, not a crop.
@@ -32,7 +40,9 @@ Same product, same brief: each ratio is a new composition, not a crop.
 ### Across categories
 
 <table>
-<tr><td align="center" valign="top"><a href="assets/examples/s08-category-3x4-1086x1448.png"><img src="assets/examples/preview/s08-category-3x4-1086x1448.webp" height="220" alt="Detail page"></a><br><sub>Detail page · 3:4 · 1086x1448<br>NUANDAO high-speed hair dryer · <a href="assets/examples/sources/dryer-black.jpg">source photo</a> · brief-generated (Chinese)</sub></td></tr>
+<tr><td align="center" valign="top"><a href="assets/examples/c01-category-3x4-1086x1448.png"><img src="assets/examples/preview/c01-category-3x4-1086x1448.webp" height="200" alt="Detail-page structure"></a><br><sub>Detail-page structure · 3:4 · 1086x1448<br>NUANDAO robot vacuum · name only · brief-generated (Chinese)</sub></td><td align="center" valign="top"><a href="assets/examples/c02-category-3x4-1086x1448.png"><img src="assets/examples/preview/c02-category-3x4-1086x1448.webp" height="200" alt="Detail page"></a><br><sub>Detail page · 3:4 · 1086x1448<br>NUANDAO sonic toothbrush · name only · brief-generated (Chinese)</sub></td><td align="center" valign="top"><a href="assets/examples/c03-category-16x9-1672x941.png"><img src="assets/examples/preview/c03-category-16x9-1672x941.webp" height="200" alt="Specs page, landscape"></a><br><sub>Specs page, landscape · 16:9 · 1672x941<br>SHENGCHUAN mechanical keyboard · name only · brief-generated (Chinese)</sub></td></tr>
+<tr><td align="center" valign="top"><a href="assets/examples/c04-category-4x5-1122x1402.png"><img src="assets/examples/preview/c04-category-4x5-1122x1402.webp" height="200" alt="Detail page"></a><br><sub>Detail page · 4:5 · 1122x1402<br>NUANDAO swing-arm desk lamp · <a href="assets/examples/sources/lamp-teal.jpg">source photo</a> · brief-generated (Chinese)</sub></td><td align="center" valign="top"><a href="assets/examples/c05-category-1x1-1254x1254.png"><img src="assets/examples/preview/c05-category-1x1-1254x1254.webp" height="200" alt="Detail-page structure"></a><br><sub>Detail-page structure · 1:1 · 1254x1254<br>SHENGCHUAN magnetic power bank · name only · brief-generated (Chinese)</sub></td><td align="center" valign="top"><a href="assets/examples/c06-category-9x16-941x1672.png"><img src="assets/examples/preview/c06-category-9x16-941x1672.webp" height="200" alt="Vertical screen"></a><br><sub>Vertical screen · 9:16 · 941x1672<br>SHENGCHUAN smartwatch · name only · brief-generated (Chinese)</sub></td></tr>
+<tr><td align="center" valign="top"><a href="assets/examples/s08-category-3x4-1086x1448.png"><img src="assets/examples/preview/s08-category-3x4-1086x1448.webp" height="200" alt="Detail page"></a><br><sub>Detail page · 3:4 · 1086x1448<br>NUANDAO high-speed hair dryer · <a href="assets/examples/sources/dryer-black.jpg">source photo</a> · brief-generated (Chinese)</sub></td></tr>
 </table>
 
 <sub>All sample products are fictional demo brands, and their prices and specs are demo values. Source photos come from Unsplash; credits and licence are in [assets/examples/README.md](assets/examples/README.md). Each image is one complete generation: not retouched, composited or upscaled, with its real pixel size shown. Images that failed visual review were regenerated and are not shown. Click for full size.</sub>
