@@ -10,7 +10,7 @@
    "id": "c01",
    "section": "category",
    "ratio": "3:4",
-   "input": "name",
+   "input": "product-nuandao-robot+logo-nuandao",
    "use": {
     "zh": "详情页结构说明",
     "en": "Detail-page structure"
@@ -33,7 +33,7 @@
    "id": "c02",
    "section": "category",
    "ratio": "3:4",
-   "input": "name",
+   "input": "product-nuandao-toothbrush+logo-nuandao",
    "use": {
     "zh": "详情页",
     "en": "Detail page"
@@ -56,7 +56,7 @@
    "id": "c03",
    "section": "category",
    "ratio": "16:9",
-   "input": "name",
+   "input": "product-sc-keyboard+logo-shengchuan",
    "use": {
     "zh": "参数页横版",
     "en": "Specs page, landscape"
@@ -79,7 +79,7 @@
    "id": "c04",
    "section": "category",
    "ratio": "4:5",
-   "input": "lamp-teal",
+   "input": "product-nuandao-lamp-desk+logo-nuandao",
    "use": {
     "zh": "详情页",
     "en": "Detail page"
@@ -102,7 +102,7 @@
    "id": "c05",
    "section": "category",
    "ratio": "1:1",
-   "input": "name",
+   "input": "product-sc-powerbank+logo-shengchuan",
    "use": {
     "zh": "详情页结构说明",
     "en": "Detail-page structure"
@@ -125,7 +125,7 @@
    "id": "c06",
    "section": "category",
    "ratio": "9:16",
-   "input": "name",
+   "input": "product-sc-watch+logo-shengchuan",
    "use": {
     "zh": "竖屏",
     "en": "Vertical screen"
@@ -148,7 +148,7 @@
    "id": "p01",
    "section": "set",
    "ratio": "3:4",
-   "input": "name",
+   "input": "product-nuandao-fryer+logo-nuandao",
    "use": {
     "zh": "详情页",
     "en": "Detail page"
@@ -175,7 +175,7 @@
    "id": "p02",
    "section": "set",
    "ratio": "3:4",
-   "input": "name",
+   "input": "product-nuandao-fryer+logo-nuandao",
    "use": {
     "zh": "详情页",
     "en": "Detail page"
@@ -202,7 +202,7 @@
    "id": "p03",
    "section": "set",
    "ratio": "3:4",
-   "input": "name",
+   "input": "product-nuandao-fryer+logo-nuandao",
    "use": {
     "zh": "详情页",
     "en": "Detail page"
@@ -229,7 +229,7 @@
    "id": "s01",
    "section": "size",
    "ratio": "1:1",
-   "input": "headphones-black",
+   "input": "product-sc-headphones+logo-shengchuan",
    "use": {
     "zh": "详情页结构说明",
     "en": "Detail-page structure"
@@ -252,7 +252,7 @@
    "id": "s02",
    "section": "size",
    "ratio": "3:4",
-   "input": "headphones-black",
+   "input": "product-sc-headphones+logo-shengchuan",
    "use": {
     "zh": "详情页",
     "en": "Detail page"
@@ -275,7 +275,7 @@
    "id": "s03",
    "section": "size",
    "ratio": "9:16",
-   "input": "headphones-black",
+   "input": "product-sc-headphones+logo-shengchuan",
    "use": {
     "zh": "竖屏",
     "en": "Vertical screen"
@@ -298,7 +298,7 @@
    "id": "s04",
    "section": "size",
    "ratio": "16:9",
-   "input": "headphones-black",
+   "input": "product-sc-headphones+logo-shengchuan",
    "use": {
     "zh": "参数页横版",
     "en": "Specs page, landscape"
@@ -321,7 +321,7 @@
    "id": "s08",
    "section": "category",
    "ratio": "3:4",
-   "input": "dryer-black",
+   "input": "product-nuandao-dryer-black+logo-nuandao",
    "use": {
     "zh": "详情页",
     "en": "Detail page"
