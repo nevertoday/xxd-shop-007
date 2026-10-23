@@ -65,3 +65,4 @@ description: "Create XXD Shop 007 exploded product teardown info posters (产品
 - `references/runtime-preferences.md`：交付偏好沿用
 - `references/sample-workflow.md`：仅用于维护样张
 - `scripts/configured_imagegen.py`、`scripts/shop_preferences.py`
+- `scripts/clean_marks.py`：验收时抹掉品牌名旁多出来的 ®、™
